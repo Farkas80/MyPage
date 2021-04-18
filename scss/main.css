@@ -341,8 +341,7 @@ p {
 }
 
 .projects_item:hover .projects_btn {
-  opacity: 0.1;
-  color: #272727;
+  opacity: 1;
 }
 
 .projects_btns {
