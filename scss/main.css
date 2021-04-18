@@ -329,7 +329,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background: orange;
+  background: rgba(255, 166, 0, 0.507);
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -341,7 +341,8 @@ p {
 }
 
 .projects_item:hover .projects_btn {
-  opacity: 1;
+  opacity: 0.1;
+  color: red;
 }
 
 .projects_btns {
